@@ -1,5 +1,5 @@
 import {FC} from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import styles from "../../styles/Card.module.css";
 import {AiOutlinePlus} from "react-icons/ai";
 import {AiFillStar} from "react-icons/ai";
@@ -7,9 +7,9 @@ import CardBtn from "../CardBtn";
 
 interface ICard {
   title: string;
-  estimation: string;
+  estimation: number;
   type: string;
-  src: string;
+  src: string | StaticImageData;
 }
 
 const Card: FC<ICard> = ({title, estimation, type, src}) => {

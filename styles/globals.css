@@ -49,5 +49,6 @@ button {
 }
 
 .content {
+  max-width: 710px;
   width: 100%;
 }
