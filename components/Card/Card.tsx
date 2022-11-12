@@ -16,13 +16,29 @@ const Card: FC<ICard> = ({title, estimation, type, src}) => {
   return(
     <div className={styles.card}>
       <Image className={styles.cardImg} src={src} alt={title} />
-      <h3 className={styles.title}>
-        {title}
-      </h3>
+      <div className={styles.header}>
+        <h3 className={styles.title}>
+          {title}
+        </h3>
+        <div className={styles.estimation}>
+          <AiFillStar className={styles.star} />
+          <AiFillStar className={styles.star} />
+          <AiFillStar className={styles.star} />
+          <AiFillStar className={styles.star} />
+          <AiFillStar className={styles.star} />
+        </div>
+      </div>
+
+      <span className={styles.type}>
+        {type}
+      </span>
+
+      <div className={styles.btns}>
       <button className={styles.addBtn}>
         <AiOutlinePlus />
       </button>
       <CardBtn title="Watch" />
+      </div>
     </div>
   );
 }

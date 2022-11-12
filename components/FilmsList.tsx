@@ -9,7 +9,7 @@ interface IFilmsList {
 
 const FilmsList: FC<IFilmsList> = ({title}) => {
   return(
-    <div>
+    <div className={styles.films}>
       <h2 className={styles.title}>
         {title}
       </h2>

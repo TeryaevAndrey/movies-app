@@ -1,8 +1,18 @@
+.films {
+  margin-top: 50px;
+}
+
+.title {
+  font-size: var(--size-big);
+  font-weight: 700;
+  color: #fff;
+}
+
 .list {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 25px;
-  margin: 0 auto;
   width: 100%;
+  margin-top: 25px;
 }
