@@ -1,0 +1,38 @@
+.sidebar {
+  background-color: var(--light-gray);
+  width: 220px;
+  min-height: 100vh;
+  padding: 40px 30px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  font-size: var(--size-normal);
+  font-weight: 600;
+  color: var(--white);
+  transition: all 0.2s ease;
+}
+
+.link:hover {
+  color: var(--green);
+}
+
+.icon {
+  width: 21px;
+  height: 21px;
+  margin-right: 13px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.title {
+  font-size: var(--size-normal);
+  font-weight: 700;
+  color: #F9F9F9AB;
+}
