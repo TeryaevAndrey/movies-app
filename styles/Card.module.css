@@ -66,5 +66,9 @@
   outline: none;
   border: none;
   padding: 16px;
+  transform: all 0.2s ease;
 }
 
+.addBtn:hover {
+  box-shadow: 0 0 10px rgba(249, 249, 249, 0.2);
+}

@@ -8,4 +8,10 @@
   outline: none;
   border: none;
   max-height: 50px;
+  transition: all 0.2s ease;
+}
+
+.watchBtn:hover {
+  box-shadow: 0 0 10px var(--green);
+  color: var(--white);
 }

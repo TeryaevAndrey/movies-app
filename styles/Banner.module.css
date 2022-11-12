@@ -45,6 +45,11 @@
   font-weight: 700;
   outline: none;
   border: none;
+  transition: all 0.2s ease;
+}
+
+.addBtn:hover {
+  background-color: var(--green);
 }
 
 .footer {
