@@ -1,10 +1,17 @@
-import Sidebar from "../components/Sidebar/Sidebar";
+import { FC } from "react";
+import Head from "next/head";
+import Header from "../components/Header/Header";
 
-const HomePage = () => {
+const HomePage: FC = () => {
   return(
-    <div>
-      <Sidebar />
-    </div>
+    <>
+    <Head>
+      <title>Home page</title>
+    </Head>
+      <div className="mainContent">
+        <Header />
+      </div>
+    </>
   );
 }
 

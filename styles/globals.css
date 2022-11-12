@@ -5,6 +5,7 @@
   --green: #00B9AE;
 
   --size-normal: 16px;
+  --size-big: 21px;
 }
 
 html,
@@ -27,6 +28,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.mainContent {
+  padding: 0 50px;
+  width: 100%;
 }
 
 @media (prefers-color-scheme: dark) {

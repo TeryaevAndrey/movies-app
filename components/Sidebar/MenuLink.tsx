@@ -7,12 +7,13 @@ import styles from "../../styles/Sidebar.module.css"
 interface ISidebarLink {
   icon?: IconType;
   title: string;
+  href: string;
 }
 
-const SidebarLink: FC<ISidebarLink> = ({icon, title}) => {
+const MenuLink: FC<ISidebarLink> = ({icon, title, href}) => {
   return (
     <>
-      <Link className={styles.link} href="/">
+      <Link className={styles.link} href={href}>
         
         {icon && React.createElement(icon, {className: styles.icon})}
         
@@ -22,4 +23,4 @@ const SidebarLink: FC<ISidebarLink> = ({icon, title}) => {
   );
 };
 
-export default SidebarLink;
+export default MenuLink;
