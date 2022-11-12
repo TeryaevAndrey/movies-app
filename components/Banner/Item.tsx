@@ -13,7 +13,7 @@ interface IBannerItem {
 const Item: FC<IBannerItem> = ({src, title}) => {
   return(
     <div className={styles.item}>
-      <Image className={styles.itemImg} src={src} alt={title} />
+      <Image className={styles.itemImg} src={src} alt={title} placeholder="blur" />
 
       <h2 className={styles.title}>
         The crown

@@ -15,7 +15,7 @@ interface ICard {
 const Card: FC<ICard> = ({title, estimation, type, src}) => {
   return(
     <div className={styles.card}>
-      <Image className={styles.cardImg} src={src} alt={title} />
+      <Image className={styles.cardImg} src={src} alt={title} placeholder="blur" />
       <div className={styles.header}>
         <h3 className={styles.title}>
           {title}
