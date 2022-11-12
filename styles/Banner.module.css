@@ -1,0 +1,53 @@
+.bannerSlider {
+  max-width: 680px;
+  width: 100%;
+  height: auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  height: 310px;
+  border-radius: 18px;
+  padding: 35px 35px 20px 35px;
+}
+
+.itemImg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
+  border-radius: 18px;
+  z-index: -1;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 800;
+  color: var(--white);
+  margin: 0;
+}
+
+.addBtn {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 18px 22px;
+  background: linear-gradient(0deg, rgba(22, 24, 30, 0.5), rgba(22, 24, 30, 0.5));
+  color: var(--white);
+  border-radius: 13px;
+  font-size: var(--size-normal);
+  font-weight: 700;
+  outline: none;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

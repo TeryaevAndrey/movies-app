@@ -1,0 +1,10 @@
+.watchBtn {
+  padding: 16px 40px;
+  background-color: var(--green);
+  color: var(--dark);
+  font-size: var(--size-normal);
+  font-weight: 700;
+  border-radius: 13px;
+  outline: none;
+  border: none;
+}
