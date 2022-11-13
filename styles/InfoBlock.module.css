@@ -45,3 +45,7 @@
   cursor: pointer;
 }
 
+.filmsSlider {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #16181E;
+  border: 1px solid #F9F9F91A;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.cardImg {
+  width: 50px;
+  height: 50px;
+}
+
+.title {
+  font-size: var(--size-small);
+  font-weight: 700;
+  color: var(--white);
+  margin: 0;
+}
+
+.episode {
+  font-size: 12px;
+  font-weight: 700;
+  color: #F9F9F9B2;
+  margin-top: 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.dropBtn {
+  width: 11px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--white);
+  border-radius: 7px;
+  background-color: #F9F9F933;
+}
