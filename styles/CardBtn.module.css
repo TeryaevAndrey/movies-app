@@ -1,4 +1,7 @@
 .watchBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 16px 40px;
   background-color: var(--green);
   color: var(--dark);

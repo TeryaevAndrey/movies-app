@@ -23,12 +23,14 @@ const ContinueCard: FC<IContinueCard> = ({ src, title, episode, progress }) => {
         <div className={styles.info}>
           <h3 className={styles.title}>{title}</h3>
           <span className={styles.episode}>{episode}</span>
-          <p>{progress}</p>
+          <div className={styles.progressBar}>
+            <div style={{width: `${progress}%`}}></div>
+          </div>
         </div>
       </div>
       <div className={styles.footer}>
         <button className={styles.dropBtn}>Drop</button>
-        <CardBtn title="Watch" />
+        <CardBtn title="Watch" style={{maxHeight: "35px", borderRadius: "7px", maxWidth: "110px"}} />
       </div>
     </div>
   );

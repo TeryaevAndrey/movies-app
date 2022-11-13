@@ -49,3 +49,9 @@
   width: 100%;
   height: auto;
 }
+
+.title {
+  font-size: var(--size-big);
+  font-weight: 700;
+  color: var(--white);
+}
