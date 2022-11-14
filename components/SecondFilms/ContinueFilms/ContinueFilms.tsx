@@ -1,15 +1,24 @@
 import { FC } from "react";
+import Link from "next/link";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ContinueCard from "./ContinueCard";
 import PreviewImg from "../../../public/images/preview-sec-card.png";
 import styles from "../../../styles/InfoBlock.module.css";
+import ArrowRightImg from "../../../public/images/arrow-right.svg";
 
 const ContinueFilms: FC = () => {
   return (
     <>
-      <h2 className={styles.title}>
-        Continue
-      </h2>
+      <div className={styles.filmsHeader}>
+        <h2 className={styles.title}>
+          Continue
+        </h2>
+        <Link href="/continue" className={styles.moreFilmsBtn}>
+          See more
+          <Image src={ArrowRightImg} alt="show more" />
+        </Link>
+      </div>
       <Swiper
         className={styles.filmsSlider}
         spaceBetween={25}

@@ -54,6 +54,11 @@
   padding: 11px 9px;
   outline: none;
   border: none;
+  transition: all 0.2s ease;
+}
+
+.dropBtn:hover {
+  box-shadow: 0 0 10px rgba(249, 249, 249, 0.2);
 }
 
 .progressBar {
