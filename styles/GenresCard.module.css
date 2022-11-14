@@ -1,0 +1,28 @@
+.genresCard {
+  position: relative;
+  width: 185px;
+  height: 85px;
+  cursor: pointer;
+}
+
+.bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: var(--size-big);
+  font-weight: 700;
+  color: var(--white);
+  cursor: pointer;
+}

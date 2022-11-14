@@ -5,6 +5,7 @@ import NotificationImg from "../../public/images/notification.svg";
 import Profile from "./Profile";
 import AvatarImg from "../../public/images/avatar.png";
 import ContinueFilms from "../SecondFilms/ContinueFilms/ContinueFilms";
+import Genres from "../Genres/Genres";
 
 const InfoBlock: FC = () => {
   return(
@@ -15,6 +16,7 @@ const InfoBlock: FC = () => {
       </div>
 
       <ContinueFilms />
+      <Genres />
     </div>
   );
 }

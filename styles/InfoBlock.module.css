@@ -45,30 +45,8 @@
   cursor: pointer;
 }
 
-.title {
-  font-size: var(--size-big);
-  font-weight: 700;
-  color: var(--white);
-}
-
 .filmsSlider {
   width: 100%;
   height: auto;
   cursor: grab;
-}
-
-.filmsHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-right: 35px;
-}
-
-.moreFilmsBtn {
-  font-size: 13px;
-  font-weight: 600;
-  color: #F9F9F9AB;
-  display: flex;
-  align-items: center;
-  gap: 5px;
 }

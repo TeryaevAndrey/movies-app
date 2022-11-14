@@ -10,11 +10,11 @@ import ArrowRightImg from "../../../public/images/arrow-right.svg";
 const ContinueFilms: FC = () => {
   return (
     <>
-      <div className={styles.filmsHeader}>
-        <h2 className={styles.title}>
+      <div className="filmsHeader">
+        <h2 className="filmsTitle">
           Continue
         </h2>
-        <Link href="/continue" className={styles.moreFilmsBtn}>
+        <Link href="/continue" className="moreFilmsBtn">
           See more
           <Image src={ArrowRightImg} alt="show more" />
         </Link>
